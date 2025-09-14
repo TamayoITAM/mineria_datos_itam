@@ -2,7 +2,7 @@
 
 ## Definición de aprendizaje supervisado
 
-Supongamos que observamos una variable cuantitativa $Y \in \mathbb{R}$ y tenemos $p$ variables predictoras, $X_1, X_2, ..., X_p$, las cuales denotaremos como $X = (X_1, X_2, ..., X_p)$. Supongamos que existe alguna reluación entre ellas y se puede expresar de la siguiente forma: 
+Supongamos que observamos una variable cuantitativa $Y \in \mathbb{R}$ y tenemos $p$ variables predictoras, $X_1, X_2, ..., X_p$, las cuales denotaremos como $X = (X_1, X_2, ..., X_p)$. Supongamos que existe alguna relación entre ellas y se puede expresar de la siguiente forma: 
 
 $$ Y = f(x) + \epsilon$$
 
@@ -22,7 +22,7 @@ donde $\hat{f}$ representa nuestro estimador de $f$ y $\hat{Y}$ es nuestra predi
 La **precisión** de $\hat{Y}$ depende de dos cantidades:
 
 - **Error reducible**: En general, $\hat{f}$ no será un estimador perfecto de $f$ y esto introducirá un error el cuál puede reducirse. Ejemplos: Introducir una estructura lineal cuándo el problema tiene estructura cuadrática, falta de variables explicativas, exceso de variables que no contribuyen a la predicción.
-- **Error ireducible**: La variable $Y$ es una función también de $\epsilon$ y por definición nuestra predicción tendra un error inherente. Ejemplos: Predecir que comerán mañana, determinar si lloverá o no, determinar cuándo ocurrirá un temblor, ¿quién ganará una elección?.
+- **Error irreducible**: La variable $Y$ es una función también de $\epsilon$ y por definición nuestra predicción tendra un error inherente. Ejemplos: Predecir que comerán mañana, determinar si lloverá o no, determinar cuándo ocurrirá un temblor, ¿quién ganará una elección?.
 
 $$ \begin{align*}
 \mathbb{E}[(Y-\hat{Y})^2] &= \mathbb{E}[(f(X) + \epsilon -\hat{f}(x))^2]\\
